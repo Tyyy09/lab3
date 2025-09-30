@@ -34,7 +34,7 @@ body {
     /* Hint: this area should space the brand and nav apart and keep them aligned */
     display: flex;
     gap: 2rem;
-    align-items: center;
+    align-content: center;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
@@ -68,11 +68,12 @@ body {
 .hero {
     /* Hint: consider a layout that stacks elements and centers them */
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 15rem 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+
 }
 .hero h1{
     font-size: 4rem;
